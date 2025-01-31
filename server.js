@@ -11,7 +11,7 @@ app.use(express.json()); // Parse JSON bodies
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://Shubha:Shubha@cluster0.eoyjn.mongodb.net/") // Replace with your database URL
+  .connect("mongodb+srv://Shubha:Shubha@cluster0.eoyjn.mongodb.net/") 
   .then(() => console.log("Connected to MongoDB"))
   .catch((error) => console.error("MongoDB connection error:", error));
 
